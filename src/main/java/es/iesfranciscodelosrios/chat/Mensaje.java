@@ -9,10 +9,6 @@ public class Mensaje {
     private String destinatario;
     private String contenido;
     private String fecha; // ISO-8601, por ejemplo: 2026-10-26T13:45:00
-    private String adjuntoRuta; // Puede ser null si no hay adjunto.
-    private String adjuntoNombre;
-    private long adjuntoTamano;
-    private String adjuntoTipo;
 
     public Mensaje() { } // JAXB necesita un constructor sin argumentos.
 
@@ -31,12 +27,4 @@ public class Mensaje {
     public void setContenido(String contenido) { this.contenido = contenido; }
     public String getFecha() { return fecha; }
     public void setFecha(String fecha) { this.fecha = fecha; }
-    public String getAdjuntoRuta() { return adjuntoRuta; }
-    public void setAdjuntoRuta(String adjuntoRuta) { this.adjuntoRuta = adjuntoRuta; }
-    public String getAdjuntoNombre() { return adjuntoNombre; }
-    public void setAdjuntoNombre(String adjuntoNombre) { this.adjuntoNombre = adjuntoNombre; }
-    public long getAdjuntoTamano() { return adjuntoTamano; }
-    public void setAdjuntoTamano(long adjuntoTamano) { this.adjuntoTamano = adjuntoTamano; }
-    public String getAdjuntoTipo() { return adjuntoTipo; }
-    public void setAdjuntoTipo(String adjuntoTipo) { this.adjuntoTipo = adjuntoTipo; }
 }

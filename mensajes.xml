@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <mensajes>
     <mensaje>
-        <emisor>ana</emisor>
-        <destinatario>luis</destinatario>
-        <contenido>hola</contenido>
-        <fecha>2026-10-27T10:09:18</fecha>
-        <adjuntoTamano>0</adjuntoTamano>
+        <emisor>Miguel</emisor>
+        <destinatario>Quevedo</destinatario>
+        <contenido>Illo </contenido>
+        <fecha>2026-10-30T19:15:14</fecha>
     </mensaje>
     <mensaje>
-        <emisor>ana</emisor>
-        <destinatario>luis</destinatario>
-        <contenido>a</contenido>
-        <fecha>2026-10-27T10:44:45</fecha>
-        <adjuntoRuta>media\1793094285330_desktop-wallpaper-tom-brady-patriots-2019-nfl-football.jpg</adjuntoRuta>
-        <adjuntoNombre>desktop-wallpaper-tom-brady-patriots-2019-nfl-football.jpg</adjuntoNombre>
-        <adjuntoTamano>50761</adjuntoTamano>
-        <adjuntoTipo>image/jpeg</adjuntoTipo>
+        <emisor>Quevedo</emisor>
+        <destinatario>Miguel</destinatario>
+        <contenido>Que dise</contenido>
+        <fecha>2026-10-30T19:15:28</fecha>
+    </mensaje>
+    <mensaje>
+        <emisor>miguel</emisor>
+        <destinatario>quevedo</destinatario>
+        <contenido>que que pasa</contenido>
+        <fecha>2026-10-30T19:16:18</fecha>
     </mensaje>
 </mensajes>

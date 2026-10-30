@@ -19,11 +19,8 @@ mvn compile exec:java
 1. `GestorXML`: guardar y leer usuarios con JAXB; `GestorChat.registrarUsuario`.
 2. `GestorXML`: guardar y leer mensajes; `GestorChat.enviarMensaje`.
 3. `GestorChat.consultarConversacion`: recuperar mensajes entre dos usuarios en ambos sentidos.
-4. `GestorChat.estadisticas` con Java Stream API y `exportarConversacion` a TXT.
-5. `GestorChat.adjuntarArchivo`: copiar binarios a `media/`, validar y guardar referencia XML.
-6. `Main`: construir y probar el menú progresivamente, desde la fase 1.
-
-**Importante:** `java.util.stream.Stream` (procesamiento de colecciones) y `InputStream`/`OutputStream` (flujos de bytes) son conceptos distintos. El enunciado pide ambos.
+4. `GestorChat.estadisticas` con Java Stream API para contar palabras y `exportarConversacion` a TXT.
+5. `Main`: construir y probar el menú progresivamente, desde la fase 1.
 
 Los métodos pendientes lanzan `UnsupportedOperationException` deliberadamente. Sustituid esa línea por vuestra implementación.
 
@@ -33,5 +30,4 @@ Los métodos pendientes lanzan `UnsupportedOperationException` deliberadamente. 
 - Registrar dos usuarios, cerrar el programa y comprobar que siguen existiendo al reabrirlo.
 - Enviar mensajes en ambos sentidos, cerrar y comprobar que persisten.
 - Consultar solo los mensajes entre dos usuarios.
-- Contar mensajes con Stream API y exportar a TXT.
-- Copiar un adjunto binario y almacenar su referencia; si desaparece, conservar el mensaje.
+- Contar palabras con Stream API y exportar la conversación a TXT.

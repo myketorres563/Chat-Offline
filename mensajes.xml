@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<mensajes>
+    <mensaje>
+        <emisor>ana</emisor>
+        <destinatario>luis</destinatario>
+        <contenido>hola</contenido>
+        <fecha>2026-10-27T10:09:18</fecha>
+        <adjuntoTamano>0</adjuntoTamano>
+    </mensaje>
+    <mensaje>
+        <emisor>ana</emisor>
+        <destinatario>luis</destinatario>
+        <contenido>a</contenido>
+        <fecha>2026-10-27T10:44:45</fecha>
+        <adjuntoRuta>media\1793094285330_desktop-wallpaper-tom-brady-patriots-2019-nfl-football.jpg</adjuntoRuta>
+        <adjuntoNombre>desktop-wallpaper-tom-brady-patriots-2019-nfl-football.jpg</adjuntoNombre>
+        <adjuntoTamano>50761</adjuntoTamano>
+        <adjuntoTipo>image/jpeg</adjuntoTipo>
+    </mensaje>
+</mensajes>
